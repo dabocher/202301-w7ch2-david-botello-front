@@ -1,12 +1,12 @@
 export interface RobotStructure {
-  id: { id: string };
+  _id: { $oid: string };
   name: string;
   image: string;
   stats: {
     speed: number;
     endurance: number;
-    dataOfCreation: Date;
+    dateOfCreation: number;
   };
 }
 
-export type RobotListStructure = RobotStructure[];
+export type RobotsStructure = RobotStructure[];
