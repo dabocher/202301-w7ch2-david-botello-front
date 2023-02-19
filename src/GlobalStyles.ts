@@ -2,15 +2,18 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 
-:root {
-
   * {
       box-sizing: border-box;
+    }
+
+    html {
+      font-size: 62.5%;
     }
 
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
+      background-color:#ddf;
     }
 
     ul,
@@ -34,7 +37,7 @@ const GlobalStyles = createGlobalStyle`
   a:active {
     text-decoration: none;
   }
-}
+
 `;
 
 export default GlobalStyles;
