@@ -15,16 +15,20 @@ const RobotCard = ({
 }: RobotCardProps): JSX.Element => {
   return (
     <>
-      <RobotCardStyled>
-        <article className="robot-card">
-          <h2>{name}</h2>
-          <img src={image} alt={`a robot named ${name}`} />
-          <ul className="robot-card__stats">
-            <li>Speed: {speed} / 10</li>
-            <li>Endurence: {endurance} / 10</li>
-            <li>Date of creation: {dateOfCreation}</li>
-          </ul>
-        </article>
+      <RobotCardStyled className="robot-card">
+        <h2 className="robot-card__title">{name}</h2>
+        <img
+          className="robot-card__image"
+          src={image}
+          alt={`a robot named ${name}`}
+          width="300"
+          height="300"
+        />
+        <ul className="robot-card__stats">
+          <li>Speed: {speed} / 10</li>
+          <li>Endurence: {endurance} / 10</li>
+          <li>Date of creation: {dateOfCreation}</li>
+        </ul>
       </RobotCardStyled>
     </>
   );
