@@ -1,5 +1,5 @@
 export interface RobotStructure {
-  _id: { $oid: string };
+  id: string;
   name: string;
   image: string;
   stats: {
@@ -10,3 +10,7 @@ export interface RobotStructure {
 }
 
 export type RobotsStructure = RobotStructure[];
+
+export interface ApiResponseStructure {
+  robots: RobotsStructure;
+}
