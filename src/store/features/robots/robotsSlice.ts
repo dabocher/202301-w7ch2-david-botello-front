@@ -11,3 +11,5 @@ export const robotsSlice = createSlice({
     ) => [...action.payload],
   },
 });
+
+export const robotsReducer = robotsSlice.reducer;
