@@ -4,7 +4,7 @@ const Layout = (): JSX.Element => {
   return (
     <>
       <Header />
-      <main></main>
+      <main aria-label="Manage your robots"></main>
     </>
   );
 };
