@@ -11,6 +11,7 @@ const Header = (): JSX.Element => {
         height="50"
       />
       <h1 className="header__title">theRobots</h1>
+      <ul></ul>
     </HeaderStyled>
   );
 };
