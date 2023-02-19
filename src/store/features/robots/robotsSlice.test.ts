@@ -2,7 +2,7 @@ import { RobotsStructure } from "../../../types";
 import { loadRobotsActionCreator, robotsReducer } from "./robotsSlice";
 
 describe("Given loadRobots reducer", () => {
-  describe("When it receives a list of three robots an a loadRobots action", () => {
+  describe("When it receives a list of three robots and a loadRobots action", () => {
     test("The it should return a list of those robots", () => {
       const robots: RobotsStructure = [
         {
