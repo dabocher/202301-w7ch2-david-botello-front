@@ -7,7 +7,7 @@ interface RobotCardProps {
 
 const RobotCard = ({
   robot: {
-    _id: { $oid },
+    id,
     name,
     image,
     stats: { endurance, speed, dateOfCreation },
