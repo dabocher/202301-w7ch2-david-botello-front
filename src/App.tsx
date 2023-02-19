@@ -1,8 +1,7 @@
-import RobotCard from "./components/RobotCard/RobotCard";
-import robots from "./data/robots";
+import Layout from "./Layout/Layout";
 
 const App = (): JSX.Element => {
-  return <RobotCard robot={robots[1]} />;
+  return <Layout />;
 };
 
 export default App;
