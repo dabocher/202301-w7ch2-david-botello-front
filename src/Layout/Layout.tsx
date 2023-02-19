@@ -1,9 +1,9 @@
+import Header from "../components/Header/Header";
+
 const Layout = (): JSX.Element => {
   return (
     <>
-      <header>
-        <h1>The Robots</h1>
-      </header>
+      <Header />
       <main></main>
     </>
   );
