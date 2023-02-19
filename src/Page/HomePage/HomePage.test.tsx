@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+import { store } from "../../store";
 import HomePage from "./HomePage";
 
 describe("Given a HomePage", () => {
@@ -8,7 +9,11 @@ describe("Given a HomePage", () => {
       const headingText = "A place to fall in love with Robots";
       const headingLevel = 1;
 
-      render(<HomePage />, { wrapper: BrowserRouter });
+      render(
+        <Provider store={store}>
+          <HomePage />
+        </Provider>
+      );
 
       const expectedHeading = screen.getByRole("heading", {
         name: headingText,

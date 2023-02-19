@@ -14,6 +14,10 @@ const GlobalStyles = createGlobalStyle`
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       background-color:#ddf;
+      color: #1e2753;
+      display:flex;
+      justify-content:center;
+      width: 100vw;
     }
 
     ul,

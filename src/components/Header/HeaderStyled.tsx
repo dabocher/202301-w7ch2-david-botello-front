@@ -11,7 +11,6 @@ const HeaderStyled = styled.header`
   .header {
     &__title {
       font-size: 3rem;
-      color: #1e2753;
     }
   }
 `;

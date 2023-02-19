@@ -5,7 +5,7 @@ const NavbarStyled = styled.nav`
     display: flex;
     justify-content: space-between;
     font-size: 3rem;
-    gap: 5rem;
+    gap: 3rem;
     color: #3567dc;
   }
 `;
