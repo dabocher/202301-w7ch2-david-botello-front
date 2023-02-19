@@ -3,9 +3,7 @@ import RobotCard from "./RobotCard";
 
 describe("Given the RobotCard component", () => {
   const robot = {
-    _id: {
-      $oid: "63efce0c21ec1e5f6aee76ee",
-    },
+    id: "",
     name: "err0R",
     image:
       "https://previews.123rf.com/images/funwayillustration/funwayillustration1609/funwayillustration160900436/63707662-robot-azul-ilustraci%C3%B3n-error-de-dise%C3%B1o.jpg",
