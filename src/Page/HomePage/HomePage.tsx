@@ -1,7 +1,11 @@
+import HomePageStyled from "./HomePageStyled";
+
 const HomePage = (): JSX.Element => {
   return (
     <>
-      <h1>A place to fall in love with Robots</h1>
+      <HomePageStyled className="home">
+        <h1 className="home__title">A place to fall in love with Robots</h1>
+      </HomePageStyled>
     </>
   );
 };
