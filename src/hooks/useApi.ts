@@ -9,7 +9,6 @@ const useApi = () => {
   const getRobots = useCallback(async () => {
     const response = await fetch(process.env.REACT_APP_URL!);
     const { robots } = (await response.json()) as ApiResponseStructure;
-
     dispatch(loadRobotsActionCreator(robots));
   }, [dispatch]);
 
