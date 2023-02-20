@@ -6,7 +6,8 @@ const NavbarStyled = styled.nav`
     justify-content: space-between;
     font-size: 3rem;
     gap: 3rem;
-    color: #3567dc;
+    color: #1e2753;
+    cursor: pointer;
   }
 `;
 

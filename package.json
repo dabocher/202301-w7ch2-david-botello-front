@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/comfortaa": "^4.5.11",
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@reduxjs/toolkit": "^1.9.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -50,6 +51,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
+    "fontface-styled-components": "^1.3.4",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4"
